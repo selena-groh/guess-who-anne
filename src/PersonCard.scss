@@ -1,0 +1,29 @@
+.PersonCard {
+  padding: 8px 4px;
+  border: 1px solid lightgray;
+  transition: transform 100ms, background-color 100ms;
+  width: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  &-name {
+    padding-top: 8px;
+    overflow-wrap: anywhere;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-family: 'Homemade Apple', sans-serif;
+    font-size: 18px;
+  }
+  &--eliminated {
+    background-color: lightgray;
+    filter: brightness(0.7);
+  }
+}
+ 
+button.PersonCard {
+  cursor: pointer;
+  &:active {
+    transform: scale(0.9);
+  }
+}

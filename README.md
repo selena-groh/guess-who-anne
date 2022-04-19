@@ -1,5 +1,5 @@
-# Guess Who, Stardew?
+# Guess Who, Anne?
 
-A Guess Who remake, but with Stardew Valley characters!
+A Guess Who remake, but with Anne with an E characters!
 
-Created with CodeSandbox: https://codesandbox.io/s/github/selena-groh/guess-who-stardew
+Created with CodeSandbox: https://codesandbox.io/s/github/selena-groh/guess-who-anne
